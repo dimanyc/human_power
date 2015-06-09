@@ -26,7 +26,7 @@ If you are using Rails, you can add a sample *config/robots.rb* configuration fi
 
 It will allow crawlers access to the whole site by default.
 
-Now you can restart your server and visit `/robots.txt` to see what's generated from the new configuration file.
+Now you can restart your server and visit `/robots.txt` to see what's generated from the new configuration file. If you are running Rails 4.*, make sure you remove the static `robots.txt` file residing in `/public`
 
 ## Usage
 
